@@ -3,10 +3,10 @@
 This python script pulls information from vCenter about VM Configuration and state and sends it to Tetration as an annotation.  Currently the following fields can be pushed:
 
 #### Enabled by Default
-* **VM Name** *(bd)*
-* **Host** *(vrf)*
-* **Datastore** *(tenant)*
-* **Port Group** *(app)*
+* **VM Name** *(name)*
+* **Host** *(host)*
+* **Datastore** *(datastore)*
+* **Port Group** *(port_group)*
 
 This script follows the same format as the [ACI Annotator](https://www.github.com/CiscoSE/tet-aci-annotations).  It is a derivative of the "getallvms" sample app for pyvmomi [getallvms.py](https://github.com/vmware/pyvmomi/blob/master/sample/getallvms.py)
 
